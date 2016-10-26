@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
     struct stat st;
 
     if (argc < 2) {
-        printf("too few arguments\n usage: ./sucopy dest < payload\n");
+        printf("too few arguments\n usage: ./mucow dest < payload\n");
         return 1;
     }
 
